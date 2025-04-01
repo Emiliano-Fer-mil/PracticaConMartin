@@ -1,16 +1,4 @@
 
-
-console.log('---------------Practica 1-------------')
-
-
-//Crear un proyecto que implemente las siguientes funciones
-// 1.-leerArchivoComoString
-console.log('-----------leer Archivo Como String----------')
-import fs, { readFileSync } from 'fs'
-
-let datos= fs.readFileSync('C:/Users/emife/Repos PNT2/PracticaConMartin/primerDocumentoDePractica.txt', 'utf-8')
-console.log(datos)
-
 // 2.-escribirTextoEnArchivo
 console.log('--------escribir Texto En Archivo----------')
 
@@ -96,3 +84,4 @@ const combinarNArrays = (a) => {
 }
 let arrayDeArrays = [[1,3,10],[2,3,15,16],[4],[6,7,13]]
 console.log(combinarNArrays (arrayDeArrays))
+
